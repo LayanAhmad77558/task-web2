@@ -7,9 +7,6 @@ This project allows users to submit their name and age using a one-line form. Th
 ## Folder Structure
 
 Place all these files inside:
-copy
-
-
 C:\xampp\htdocs\user_form_project
 
 ### Required Files:
@@ -40,9 +37,7 @@ Download and install XAMPP from [https://www.apachefriends.org](https://www.apac
 ###  3. Create the Project Folder
 
 Create this folder:
-copy
-
-
+
 C:\xampp\htdocs\user_form_project
 
 Put all your project files inside it.
@@ -54,17 +49,12 @@ Put all your project files inside it.
 1. Open [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 2. Click New, and enter:
 
-  
-copy
-
-
    user_form_project
    
 3. Click Create
 4. Go to the SQL tab and paste:
 SQL
-
-
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
